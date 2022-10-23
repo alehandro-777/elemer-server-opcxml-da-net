@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IOServerConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ChannellsCfg>
+    <IOChanellConfig>
+      <SerialPortParams>
+        <BaudRate>0</BaudRate>
+        <Parity>None</Parity>
+        <StopBits>None</StopBits>
+        <DataBits>0</DataBits>
+        <Handshake>None</Handshake>
+        <RtsEnable>false</RtsEnable>
+      </SerialPortParams>
+      <Queries>
+        <ElemerQueryParams>
+          <DeviceId>1</DeviceId>
+          <ChanellId>2</ChanellId>
+          <ElemerType>IPTM2402</ElemerType>
+          <DbItems>
+            <DbItem>
+              <Id>id</Id>
+              <Value>1.2</Value>
+              <LastUpdate>2018-07-23T14:54:06.5197458+03:00</LastUpdate>
+              <IsGood>false</IsGood>
+            </DbItem>
+          </DbItems>
+          <RawQuery>
+            <unsignedByte>255</unsignedByte>
+            <unsignedByte>0</unsignedByte>
+          </RawQuery>
+        </ElemerQueryParams>
+      </Queries>
+    </IOChanellConfig>
+  </ChannellsCfg>
+</IOServerConfig>

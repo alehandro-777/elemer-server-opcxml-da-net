@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="OpcXmlDaWcfService.OpcXmlDaService" CodeBehind="OpcXmlDaService.svc.cs" %>

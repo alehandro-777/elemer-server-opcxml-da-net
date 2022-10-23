@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IOServerConfig >
+    <IOChanellConfig>
+      
+      <SerialPortParams Name="COM5" BaudRate="38400" Parity="None" StopBits="One" DataBits="8" Handshake="None" RtsEnable="false"/>
+      
+      <Queries>
+        
+        <ElemerQueryParams DeviceId="11" ChanellId="0" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.0011.0"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="11" ChanellId="1" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.0011.1"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="11" ChanellId="2" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.0011.2"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="11" ChanellId="3" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.0011.3"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="11" ChanellId="4" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.0011.4"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="11" ChanellId="5" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.0011.5"/>
+          </DbItems>
+        </ElemerQueryParams>
+
+        <ElemerQueryParams DeviceId="28" ChanellId="0" ElemerType="IPTM2402" Timeout="2000">
+          <DbItems>
+            <DbItem Id="IPTM2402.0028.0"/>
+            <DbItem Id="IPTM2402.0028.1"/>
+            <DbItem Id="IPTM2402.0028.2"/>
+            <DbItem Id="IPTM2402.0028.3"/>
+            <DbItem Id="IPTM2402.0028.4"/>
+            <DbItem Id="IPTM2402.0028.5"/>
+            <DbItem Id="IPTM2402.0028.6"/>
+            <DbItem Id="IPTM2402.0028.7"/>
+            <DbItem Id="IPTM2402.0028.8"/>
+            <DbItem Id="IPTM2402.0028.9"/>
+            <DbItem Id="IPTM2402.0028.10"/>
+            <DbItem Id="IPTM2402.0028.11"/>
+          </DbItems>
+          <RawQuery Bytes="3E, 32, 38, 3B, 41, 35, 0D"/>
+        </ElemerQueryParams>
+
+      </Queries>
+      
+    </IOChanellConfig>
+
+</IOServerConfig>

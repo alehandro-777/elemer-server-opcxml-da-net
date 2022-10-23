@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IOServerConfig >
+
+
+<!-- COM 1 -->
+
+    <IOChanellConfig>
+      
+      <SerialPortParams Name="COM1" BaudRate="38400" Parity="None" StopBits="One" DataBits="8" Handshake="None" RtsEnable="false" Ip="192.168.0.111" Socket="3333"/>
+      
+      <Queries>
+
+        <!-- ГПА №1 -->
+
+        <ElemerQueryParams DeviceId="1" ChanellId="0" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.1.1"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="1" ChanellId="1" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.1.2"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="1" ChanellId="2" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.1.3"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="1" ChanellId="3" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.1.4"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="1" ChanellId="4" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.1.5"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="1" ChanellId="5" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.1.6"/>
+          </DbItems>
+        </ElemerQueryParams>
+
+        <ElemerQueryParams DeviceId="21" ChanellId="0" ElemerType="IPTM2402" Timeout="2000">
+          <DbItems>
+            <DbItem Id="IPTM2402.1.1"/>
+            <DbItem Id="IPTM2402.1.2"/>
+            <DbItem Id="IPTM2402.1.3"/>
+            <DbItem Id="IPTM2402.1.4"/>
+            <DbItem Id="IPTM2402.1.5"/>
+            <DbItem Id="IPTM2402.1.6"/>
+            <DbItem Id="IPTM2402.1.7"/>
+            <DbItem Id="IPTM2402.1.8"/>
+            <DbItem Id="IPTM2402.1.9"/>
+            <DbItem Id="IPTM2402.1.10"/>
+            <DbItem Id="IPTM2402.1.11"/>
+            <DbItem Id="IPTM2402.1.12"/>
+          </DbItems>
+          <RawQuery Bytes="3E, 32, 31, 3B, 39, 45, 0D"/>
+        </ElemerQueryParams>
+
+
+        <!-- ГПА №2 -->
+
+        <ElemerQueryParams DeviceId="2" ChanellId="0" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.2.1"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="2" ChanellId="1" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.2.2"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="2" ChanellId="2" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.2.3"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="2" ChanellId="3" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.2.4"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="2" ChanellId="4" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.2.5"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="2" ChanellId="5" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.2.6"/>
+          </DbItems>
+        </ElemerQueryParams>
+
+        <ElemerQueryParams DeviceId="22" ChanellId="0" ElemerType="IPTM2402" Timeout="2000">
+          <DbItems>
+            <DbItem Id="IPTM2402.2.1"/>
+            <DbItem Id="IPTM2402.2.2"/>
+            <DbItem Id="IPTM2402.2.3"/>
+            <DbItem Id="IPTM2402.2.4"/>
+            <DbItem Id="IPTM2402.2.5"/>
+            <DbItem Id="IPTM2402.2.6"/>
+            <DbItem Id="IPTM2402.2.7"/>
+            <DbItem Id="IPTM2402.2.8"/>
+            <DbItem Id="IPTM2402.2.9"/>
+            <DbItem Id="IPTM2402.2.10"/>
+            <DbItem Id="IPTM2402.2.11"/>
+            <DbItem Id="IPTM2402.2.12"/>
+          </DbItems>
+          <RawQuery Bytes="3E, 32, 32, 3B, 39, 46, 0D"/>
+        </ElemerQueryParams>
+
+
+        <!-- ГПА №4 -->
+
+        <ElemerQueryParams DeviceId="4" ChanellId="0" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.4.1"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="4" ChanellId="1" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.4.2"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="4" ChanellId="2" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.4.3"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="4" ChanellId="3" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.4.4"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="4" ChanellId="4" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.4.5"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="4" ChanellId="5" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.4.6"/>
+          </DbItems>
+        </ElemerQueryParams>
+
+        <ElemerQueryParams DeviceId="24" ChanellId="0" ElemerType="IPTM2402" Timeout="2000">
+          <DbItems>
+            <DbItem Id="IPTM2402.4.1"/>
+            <DbItem Id="IPTM2402.4.2"/>
+            <DbItem Id="IPTM2402.4.3"/>
+            <DbItem Id="IPTM2402.4.4"/>
+            <DbItem Id="IPTM2402.4.5"/>
+            <DbItem Id="IPTM2402.4.6"/>
+            <DbItem Id="IPTM2402.4.7"/>
+            <DbItem Id="IPTM2402.4.8"/>
+            <DbItem Id="IPTM2402.4.9"/>
+            <DbItem Id="IPTM2402.4.10"/>
+            <DbItem Id="IPTM2402.4.11"/>
+            <DbItem Id="IPTM2402.4.12"/>
+          </DbItems>
+          <RawQuery Bytes="3E, 32, 34, 3B, 41, 31, 0D"/>
+        </ElemerQueryParams>
+
+      </Queries>
+      
+    </IOChanellConfig>
+
+<!-- COM 2 -->
+
+
+    <IOChanellConfig>
+      
+      <SerialPortParams Name="COM2" BaudRate="38400" Parity="None" StopBits="One" DataBits="8" Handshake="None" RtsEnable="false" Ip="192.168.0.111" Socket="3333"/>
+      
+      <Queries>
+
+        <!-- ГПА №5 -->
+
+        <ElemerQueryParams DeviceId="5" ChanellId="0" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.5.1"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="5" ChanellId="1" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.5.2"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="5" ChanellId="2" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.5.3"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="5" ChanellId="3" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.5.4"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="5" ChanellId="4" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.5.5"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="5" ChanellId="5" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.5.6"/>
+          </DbItems>
+        </ElemerQueryParams>
+
+        <ElemerQueryParams DeviceId="25" ChanellId="0" ElemerType="IPTM2402" Timeout="2000">
+          <DbItems>
+            <DbItem Id="IPTM2402.5.1"/>
+            <DbItem Id="IPTM2402.5.2"/>
+            <DbItem Id="IPTM2402.5.3"/>
+            <DbItem Id="IPTM2402.5.4"/>
+            <DbItem Id="IPTM2402.5.5"/>
+            <DbItem Id="IPTM2402.5.6"/>
+            <DbItem Id="IPTM2402.5.7"/>
+            <DbItem Id="IPTM2402.5.8"/>
+            <DbItem Id="IPTM2402.5.9"/>
+            <DbItem Id="IPTM2402.5.10"/>
+            <DbItem Id="IPTM2402.5.11"/>
+            <DbItem Id="IPTM2402.5.12"/>
+          </DbItems>
+          <RawQuery Bytes="3E, 32, 35, 3B, 41, 32, 0D"/>
+        </ElemerQueryParams>
+
+
+        <!-- ГПА №6 -->
+
+        <ElemerQueryParams DeviceId="6" ChanellId="0" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.6.1"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="6" ChanellId="1" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.6.2"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="6" ChanellId="2" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.6.3"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="6" ChanellId="3" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.6.4"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="6" ChanellId="4" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.6.5"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="6" ChanellId="5" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.6.6"/>
+          </DbItems>
+        </ElemerQueryParams>
+
+        <ElemerQueryParams DeviceId="26" ChanellId="0" ElemerType="IPTM2402" Timeout="2000">
+          <DbItems>
+            <DbItem Id="IPTM2402.6.1"/>
+            <DbItem Id="IPTM2402.6.2"/>
+            <DbItem Id="IPTM2402.6.3"/>
+            <DbItem Id="IPTM2402.6.4"/>
+            <DbItem Id="IPTM2402.6.5"/>
+            <DbItem Id="IPTM2402.6.6"/>
+            <DbItem Id="IPTM2402.6.7"/>
+            <DbItem Id="IPTM2402.6.8"/>
+            <DbItem Id="IPTM2402.6.9"/>
+            <DbItem Id="IPTM2402.6.10"/>
+            <DbItem Id="IPTM2402.6.11"/>
+            <DbItem Id="IPTM2402.6.12"/>
+          </DbItems>
+          <RawQuery Bytes="3E, 32, 36, 3B, 41, 33, 0D"/>
+        </ElemerQueryParams>
+
+
+      </Queries>
+      
+    </IOChanellConfig>
+
+
+<!-- COM 3 -->
+
+    <IOChanellConfig>
+      
+      <SerialPortParams Name="COM3" BaudRate="38400" Parity="None" StopBits="One" DataBits="8" Handshake="None" RtsEnable="false" Ip="192.168.0.111" Socket="3333"/>
+      
+      <Queries>
+
+        <!-- ГПА №7 -->
+
+        <ElemerQueryParams DeviceId="7" ChanellId="0" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.7.1"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="7" ChanellId="1" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.7.2"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="7" ChanellId="2" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.7.3"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="7" ChanellId="3" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.7.4"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="7" ChanellId="4" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.7.5"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="7" ChanellId="5" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.7.6"/>
+          </DbItems>
+        </ElemerQueryParams>
+
+        <ElemerQueryParams DeviceId="27" ChanellId="0" ElemerType="IPTM2402" Timeout="2000">
+          <DbItems>
+            <DbItem Id="IPTM2402.7.1"/>
+            <DbItem Id="IPTM2402.7.2"/>
+            <DbItem Id="IPTM2402.7.3"/>
+            <DbItem Id="IPTM2402.7.4"/>
+            <DbItem Id="IPTM2402.7.5"/>
+            <DbItem Id="IPTM2402.7.6"/>
+            <DbItem Id="IPTM2402.7.7"/>
+            <DbItem Id="IPTM2402.7.8"/>
+            <DbItem Id="IPTM2402.7.9"/>
+            <DbItem Id="IPTM2402.7.10"/>
+            <DbItem Id="IPTM2402.7.11"/>
+            <DbItem Id="IPTM2402.7.12"/>
+          </DbItems>
+          <RawQuery Bytes="3E, 32, 37, 3B, 41, 34, 0D"/>
+        </ElemerQueryParams>
+
+
+        <!-- ГПА №8 -->
+
+        <ElemerQueryParams DeviceId="8" ChanellId="0" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.8.1"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="8" ChanellId="1" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.8.2"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="8" ChanellId="2" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.8.3"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="8" ChanellId="3" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.8.4"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="8" ChanellId="4" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.8.5"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="8" ChanellId="5" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.8.6"/>
+          </DbItems>
+        </ElemerQueryParams>
+
+        <ElemerQueryParams DeviceId="28" ChanellId="0" ElemerType="IPTM2402" Timeout="2000">
+          <DbItems>
+            <DbItem Id="IPTM2402.8.1"/>
+            <DbItem Id="IPTM2402.8.2"/>
+            <DbItem Id="IPTM2402.8.3"/>
+            <DbItem Id="IPTM2402.8.4"/>
+            <DbItem Id="IPTM2402.8.5"/>
+            <DbItem Id="IPTM2402.8.6"/>
+            <DbItem Id="IPTM2402.8.7"/>
+            <DbItem Id="IPTM2402.8.8"/>
+            <DbItem Id="IPTM2402.8.9"/>
+            <DbItem Id="IPTM2402.8.10"/>
+            <DbItem Id="IPTM2402.8.11"/>
+            <DbItem Id="IPTM2402.8.12"/>
+          </DbItems>
+          <RawQuery Bytes="3E, 32, 38, 3B, 41, 35, 0D"/>
+        </ElemerQueryParams>
+
+
+        <!-- ГПА №10 -->
+
+        <ElemerQueryParams DeviceId="10" ChanellId="0" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.10.1"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="10" ChanellId="1" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.10.2"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="10" ChanellId="2" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.10.3"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="10" ChanellId="3" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.10.4"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="10" ChanellId="4" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.10.5"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="10" ChanellId="5" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.10.6"/>
+          </DbItems>
+        </ElemerQueryParams>
+
+        <ElemerQueryParams DeviceId="30" ChanellId="0" ElemerType="IPTM2402" Timeout="2000">
+          <DbItems>
+            <DbItem Id="IPTM2402.10.1"/>
+            <DbItem Id="IPTM2402.10.2"/>
+            <DbItem Id="IPTM2402.10.3"/>
+            <DbItem Id="IPTM2402.10.4"/>
+            <DbItem Id="IPTM2402.10.5"/>
+            <DbItem Id="IPTM2402.10.6"/>
+            <DbItem Id="IPTM2402.10.7"/>
+            <DbItem Id="IPTM2402.10.8"/>
+            <DbItem Id="IPTM2402.10.9"/>
+            <DbItem Id="IPTM2402.10.10"/>
+            <DbItem Id="IPTM2402.10.11"/>
+            <DbItem Id="IPTM2402.10.12"/>
+          </DbItems>
+          <RawQuery Bytes="3E, 33, 30, 3B, 39, 45, 0D"/>
+        </ElemerQueryParams>
+
+      </Queries>
+      
+    </IOChanellConfig>
+
+<!-- COM 4 -->
+
+    <IOChanellConfig>
+      
+      <SerialPortParams Name="COM4" BaudRate="38400" Parity="None" StopBits="One" DataBits="8" Handshake="None" RtsEnable="false" Ip="192.168.0.111" Socket="3333"/>
+      
+      <Queries>
+
+        <!-- ГПА № 9 -->
+
+        <ElemerQueryParams DeviceId="9" ChanellId="0" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.9.1"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="9" ChanellId="1" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.9.2"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="9" ChanellId="2" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.9.3"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="9" ChanellId="3" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.9.4"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="9" ChanellId="4" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.9.5"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="9" ChanellId="5" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.9.6"/>
+          </DbItems>
+        </ElemerQueryParams>
+
+        <ElemerQueryParams DeviceId="29" ChanellId="0" ElemerType="IPTM2402" Timeout="2000">
+          <DbItems>
+            <DbItem Id="IPTM2402.9.1"/>
+            <DbItem Id="IPTM2402.9.2"/>
+            <DbItem Id="IPTM2402.9.3"/>
+            <DbItem Id="IPTM2402.9.4"/>
+            <DbItem Id="IPTM2402.9.5"/>
+            <DbItem Id="IPTM2402.9.6"/>
+            <DbItem Id="IPTM2402.9.7"/>
+            <DbItem Id="IPTM2402.9.8"/>
+            <DbItem Id="IPTM2402.9.9"/>
+            <DbItem Id="IPTM2402.9.10"/>
+            <DbItem Id="IPTM2402.9.11"/>
+            <DbItem Id="IPTM2402.9.12"/>
+          </DbItems>
+          <RawQuery Bytes="3E, 32, 39, 3B, 41, 36, 0D"/>
+        </ElemerQueryParams>
+
+
+        <!-- ГПА № 11 -->
+
+        <ElemerQueryParams DeviceId="11" ChanellId="0" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.11.1"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="11" ChanellId="1" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.11.2"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="11" ChanellId="2" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.11.3"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="11" ChanellId="3" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.11.4"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="11" ChanellId="4" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.11.5"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="11" ChanellId="5" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.11.6"/>
+          </DbItems>
+        </ElemerQueryParams>
+
+        <ElemerQueryParams DeviceId="31" ChanellId="0" ElemerType="IPTM2402" Timeout="2000">
+          <DbItems>
+            <DbItem Id="IPTM2402.11.1"/>
+            <DbItem Id="IPTM2402.11.2"/>
+            <DbItem Id="IPTM2402.11.3"/>
+            <DbItem Id="IPTM2402.11.4"/>
+            <DbItem Id="IPTM2402.11.5"/>
+            <DbItem Id="IPTM2402.11.6"/>
+            <DbItem Id="IPTM2402.11.7"/>
+            <DbItem Id="IPTM2402.11.8"/>
+            <DbItem Id="IPTM2402.11.9"/>
+            <DbItem Id="IPTM2402.11.10"/>
+            <DbItem Id="IPTM2402.11.11"/>
+            <DbItem Id="IPTM2402.11.12"/>
+          </DbItems>
+          <RawQuery Bytes="3E, 33, 31, 3B, 39, 46, 0D"/>
+        </ElemerQueryParams>
+
+
+        <!-- ГПА № 12 -->
+
+        <ElemerQueryParams DeviceId="12" ChanellId="0" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.12.1"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="12" ChanellId="1" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.12.2"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="12" ChanellId="2" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.12.3"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="12" ChanellId="3" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.12.4"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="12" ChanellId="4" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.12.5"/>
+          </DbItems>
+        </ElemerQueryParams>
+        <ElemerQueryParams DeviceId="12" ChanellId="5" ElemerType="PMT69Ex" Timeout="1000">
+          <DbItems>
+            <DbItem Id="PMT69Ex.12.6"/>
+          </DbItems>
+        </ElemerQueryParams>
+
+        <ElemerQueryParams DeviceId="32" ChanellId="0" ElemerType="IPTM2402" Timeout="2000">
+          <DbItems>
+            <DbItem Id="IPTM2402.12.1"/>
+            <DbItem Id="IPTM2402.12.2"/>
+            <DbItem Id="IPTM2402.12.3"/>
+            <DbItem Id="IPTM2402.12.4"/>
+            <DbItem Id="IPTM2402.12.5"/>
+            <DbItem Id="IPTM2402.12.6"/>
+            <DbItem Id="IPTM2402.12.7"/>
+            <DbItem Id="IPTM2402.12.8"/>
+            <DbItem Id="IPTM2402.12.9"/>
+            <DbItem Id="IPTM2402.12.10"/>
+            <DbItem Id="IPTM2402.12.11"/>
+            <DbItem Id="IPTM2402.12.12"/>
+          </DbItems>
+          <RawQuery Bytes="3E, 33, 32, 3B, 41, 30, 0D"/>
+        </ElemerQueryParams>
+
+      </Queries>
+      
+    </IOChanellConfig>
+
+
+
+</IOServerConfig>
